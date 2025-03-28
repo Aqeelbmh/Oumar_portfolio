@@ -13,7 +13,8 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center opacity-0"
+      className="relative min-h-screen flex items-center"
+      style={{ opacity: 1 }} // Ensure visibility
     >
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"

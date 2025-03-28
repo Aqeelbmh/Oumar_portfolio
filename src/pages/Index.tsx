@@ -14,14 +14,16 @@ const Index = () => {
   return (
     <ThemeProvider>
       <Layout>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ExperienceSection />
-        <EducationSection />
-        <CertificationsSection />
-        <LanguagesSection />
-        <ContactSection />
+        <div className="text-foreground"> {/* Ensure text color is properly set */}
+          <HeroSection />
+          <AboutSection />
+          <SkillsSection />
+          <ExperienceSection />
+          <EducationSection />
+          <CertificationsSection />
+          <LanguagesSection />
+          <ContactSection />
+        </div>
       </Layout>
     </ThemeProvider>
   );

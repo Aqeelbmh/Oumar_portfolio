@@ -14,6 +14,12 @@ const Layout = ({ children }: LayoutProps) => {
   useEffect(() => {
     const sections = document.querySelectorAll('section');
     
+    // Initialize sections as visible instead of requiring intersection
+    sections.forEach(section => {
+      section.classList.add('animate-fade-in');
+      section.style.opacity = '1'; // Make sections visible by default
+    });
+    
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
