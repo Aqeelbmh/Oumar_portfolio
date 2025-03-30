@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
             <p className="text-sm text-muted-foreground mt-1">
               <a 
-                href={`mailto:${email}`}
+                href={`mailto:bmhaqeel995@gmail.com`}
                 className="hover:text-primary transition-colors"
               >
                 {email}
@@ -24,14 +24,14 @@ const Footer = () => {
           </div>
           <div className="flex space-x-4">
             <a
-              href={`mailto:${email}`}
+              href={`mailto:bmhaqeel995@gmail.com`}
               aria-label="Email"
               className="text-foreground/70 hover:text-primary transition-colors"
             >
               <Mail className="w-5 h-5" />
             </a>
             <a
-              href={linkedinUrl}
+              href={`http://www.linkedin.com/in/mohamed-hakeel-67323721b`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
