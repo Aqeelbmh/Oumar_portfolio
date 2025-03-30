@@ -27,20 +27,6 @@ export const useScrollToSection = () => {
 
     // Handle hash changes
     window.addEventListener('hashchange', handleScroll);
-    
-    // Handle manual scrolling
-    window.addEventListener('scroll', () => {
-      const sections = document.querySelectorAll('section');
-      sections.forEach(section => {
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= 100 && rect.bottom >= 100) {
-          const id = section.getAttribute('id');
-          if (id && window.location.hash !== `#${id}`) {
-            window.location.hash = `#${id}`;
-          }
-        }
-      });
-    });
 
     return () => {
       window.removeEventListener('hashchange', handleScroll);
