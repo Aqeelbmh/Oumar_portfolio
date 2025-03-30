@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   base: '/stylish-omar-portfolio/',
   server: {
     host: "::",
-    port: 8080,
+    port: 5173,
   },
   plugins: [
     react(),
