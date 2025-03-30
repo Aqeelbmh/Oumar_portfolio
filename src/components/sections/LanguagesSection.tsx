@@ -20,37 +20,37 @@ const LanguagesSection = () => {
       name: "French",
       level: "Advanced",
       description: "Strong command of French language, particularly in diplomatic and cultural contexts.",
-      icon: <Award className="w-5 h-5" />
+      icon: <Globe className="w-5 h-5" />
     },
     {
       name: "Arabic",
       level: "Advanced",
       description: "Proficient in Modern Standard Arabic and various regional dialects.",
-      icon: <BookOpen className="w-5 h-5" />
+      icon: <Globe className="w-5 h-5" />
     },
     {
       name: "Bambara",
       level: "Native",
       description: "Native speaker with deep understanding of cultural nuances and expressions.",
-      icon: <MessageSquare className="w-5 h-5" />
+      icon: <Globe className="w-5 h-5" />
     },
     {
-      name: "Spanish",
+      name: "Bahasa Indonesia",
       level: "Intermediate",
-      description: "Good understanding and communication skills in both written and spoken Spanish.",
-      icon: <Languages className="w-5 h-5" />
+      description: "Good understanding and communication skills in Bahasa Indonesia.",
+      icon: <Globe className="w-5 h-5" />
     },
     {
-      name: "German",
-      level: "Intermediate",
-      description: "Proficient in basic communication and understanding of German language.",
-      icon: <GraduationCap className="w-5 h-5" />
+      name: "Joula",
+      level: "Native",
+      description: "Native speaker with deep understanding of cultural nuances and expressions.",
+      icon: <Globe className="w-5 h-5" />
     },
     {
-      name: "Portuguese",
-      level: "Basic",
-      description: "Basic understanding and communication skills in Portuguese.",
-      icon: <BookMarked className="w-5 h-5" />
+      name: "Manika",
+      level: "Native",
+      description: "Native speaker with deep understanding of cultural nuances and expressions.",
+      icon: <Globe className="w-5 h-5" />
     }
   ];
 

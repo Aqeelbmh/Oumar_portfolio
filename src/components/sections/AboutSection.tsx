@@ -39,13 +39,11 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <p className="mb-4">
-              I'm Oumar Bagayoko, a graduate from prestigious institutions including Franco-Arab African Private University and the Islamic University in Niger. My academic journey has equipped me with a unique perspective on cross-cultural communication and interdisciplinary approaches to problem-solving.
-            </p>
+            I am a dedicated and academically driven individual with a strong background in arts, languages, social sciences, and modern studies. Passionate about cultural diversity and societal dynamics, I strive to enhance critical thinking, cross-cultural understanding, and interdisciplinary collaboration.            </p>
             <p className="mb-4">
-              Throughout my studies and professional experiences, I've developed a strong interest in bridging diverse fields of knowledge and facilitating understanding across cultural boundaries.
-            </p>
+            With a solid educational foundation from institutions in Mali, Niger, and Indonesia, I have developed expertise in research, language learning, and public discourse. My goal is to address global challenges, contribute to meaningful research, and promote positive change through education, communication, and international collaboration.            </p>
             <p>
-              My approach combines analytical thinking with creative problem-solving, allowing me to contribute meaningfully to collaborative projects across various disciplines.
+              My approach combines anaBeyond academics, I actively engage in volunteer work, student mentorship, and professional development initiatives. I am fluent in multiple languages, including English, Arabic, French, and Bahasa Indonesia, allowing me to connect with diverse communities and navigate multicultural environments effectively.lytical thinking with creative problem-solving, allowing me to contribute meaningfully to collaborative projects across various disciplines.
             </p>
           </div>
 

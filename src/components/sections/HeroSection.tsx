@@ -13,7 +13,7 @@ const HeroSection = () => {
     {
       name: "WhatsApp",
       icon: <MessageCircle className="w-5 h-5" />,
-      href: "https://wa.me/YOUR_PHONE_NUMBER",
+      href: "http://wa.me/6282113699561",
       color: "text-green-500"
     },
     {
@@ -25,19 +25,19 @@ const HeroSection = () => {
     {
       name: "Instagram",
       icon: <Instagram className="w-5 h-5" />,
-      href: "https://instagram.com/YOUR_PROFILE",
+      href: "https://www.instagram.com/bagayokoo291?igsh=MWlta295cnlhd2FlNQ%3D%3D&utm_source=qr",
       color: "text-pink-500"
     },
     {
       name: "Facebook",
       icon: <Facebook className="w-5 h-5" />,
-      href: "https://facebook.com/YOUR_PROFILE",
+      href: "https://www.facebook.com/share/18URpHbafm/?mibextid=wwXIfr",
       color: "text-blue-500"
     },
     {
       name: "Telegram",
       icon: <Send className="w-5 h-5" />,
-      href: "https://t.me/YOUR_USERNAME",
+      href: "http://t.me/bagayokooumar64",
       color: "text-blue-400"
     }
   ];
@@ -62,7 +62,7 @@ const HeroSection = () => {
               Oumar <span className="text-primary animate-glow">Bagayoko</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary/80 mb-8 animate-fade-in-right">
-              Bridging cultures, languages, and perspectives through interdisciplinary collaboration
+              Full Stack Developer & Cultural Bridge-builder
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in">
               <Button className="btn-primary hover:animate-pulse-glow" asChild>

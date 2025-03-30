@@ -13,28 +13,36 @@ interface Education {
 const EducationSection = () => {
   const educations: Education[] = [
     {
-      degree: "Master's Degree in International Relations",
+      degree: "Bachelor's Degree in Arts and Human Sciences",
       institution: "Franco-Arab African Private University",
       location: "Bamako, Mali",
-      period: "2016 - 2018",
-      description: "Focused on diplomatic relations, cross-cultural communication, and international cooperation frameworks with an emphasis on African-European relations.",
-      link: "https://www.faapu.edu.ml"
+      period: "2020 - 2024",
+      description: "Studies were conducted on person (Offline)",
+      link: "https://drive.google.com/file/d/13AOTwQDh-m5uE_ym0dZbhrLKtPF-lLE5/view?usp=drive_link"
     },
     {
-      degree: "Bachelor's Degree in Social Sciences",
+      degree: "Bachelor's Degree in Arabic Language and Human Sciences",
       institution: "Islamic University in Niger",
       location: "Say, Niger",
-      period: "2012 - 2016",
-      description: "Studied sociological theories, research methods, and cultural studies with a focus on West African societies and social structures.",
-      link: "https://www.uiniger.edu.ne"
+      period: "2020 - 2023",
+      description: "Studies were conducted on person (Online)",
+      link: "https://drive.google.com/file/d/1YZT4Hof1qxSkrcn7IldzR1_6AbCqGsJN/view?usp=drive_link"
     },
     {
-      degree: "Diploma in Digital Marketing",
-      institution: "Digital Africa Institute",
-      location: "Online",
-      period: "2019",
-      description: "Completed specialized training in digital marketing strategies, social media management, and content creation for diverse audiences.",
-      link: "https://www.digitalafrica.institute"
+      degree: "Diploma in High School",
+      institution: "Dar El Hadith",
+      location: "Bamako, Mali",
+      period: "2017 - 2019",
+      description: "Studies were conducted on person (Offline)",
+      link: "https://drive.google.com/file/d/1H_fVVqFpqi11NOmy6DAS25S5f-p7FkYc/view?usp=drive_link"
+    },
+    {
+      degree: "Elementary School",
+      institution: "Dar El Fallah",
+      location: "Bamako, Mali",
+      period: "2007 - 2016",
+      description: "Studies were conducted on person (Offline)",
+      link: "https://drive.google.com/file/d/1dENRhwh_4ePS0gw8z01AWM8ZzfMZq0Gq/view?usp=drive_link"
     }
   ];
 

@@ -19,17 +19,19 @@ const SkillsSection = () => {
         { name: "Problem Solving", level: 95 },
         { name: "Critical Thinking", level: 90 },
         { name: "Creativity", level: 85 },
-        { name: "Adaptability", level: 90 }
+        { name: "Adaptability", level: 90 },
+        { name: "Teamwork", level: 90 }
       ]
     },
     {
       category: "Communication",
       icon: <MessageSquare className="w-6 h-6" />,
       skills: [
-        { name: "Public Speaking", level: 90 },
-        { name: "Technical Writing", level: 85 },
+        { name: "Multilingual Proficiency (Arabic, French, English, Bambara)", level: 90 },
+        { name: "Technical Writing", level: 65 },
         { name: "Team Leadership", level: 80 },
-        { name: "Cross-cultural", level: 95 }
+        { name: "Cross-cultural", level: 95 },
+        { name: "Public Speaking", level: 85 }
       ]
     }
   ];

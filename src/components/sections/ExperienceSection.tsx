@@ -14,35 +14,13 @@ const ExperienceSection = () => {
   const experiences: Experience[] = [
     {
       title: "Student Consultant",
-      company: "University Outreach Program",
-      period: "2019 - 2021",
+      company: "Apply for Campus",
+      period: "2021 - Present",
       description: "Provided guidance to prospective international students on admissions processes and cultural adaptation.",
       achievements: [
         "Mentored over 50 students through the university application process",
         "Facilitated cultural orientation workshops for new international students",
         "Developed multi-language information resources for student use"
-      ]
-    },
-    {
-      title: "Language & Cultural Mentor",
-      company: "International Exchange Program",
-      period: "2018 - 2019",
-      description: "Served as a language assistant and cultural ambassador for exchange students.",
-      achievements: [
-        "Conducted weekly language practice sessions for groups of 5-10 students",
-        "Organized cultural events highlighting West African traditions and customs",
-        "Received recognition for exceptional contributions to the exchange program"
-      ]
-    },
-    {
-      title: "Research Assistant",
-      company: "Department of Social Sciences",
-      period: "2017 - 2018",
-      description: "Assisted faculty with research on cross-cultural communication patterns.",
-      achievements: [
-        "Collected and analyzed data for a major research initiative",
-        "Translated research materials between English, French, and Arabic",
-        "Co-authored a research paper on intercultural dialogue in academic settings"
       ]
     }
   ];

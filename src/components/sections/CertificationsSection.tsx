@@ -13,32 +13,53 @@ interface Certification {
 const CertificationsSection = () => {
   const certifications: Certification[] = [
     {
-      title: "IELTS Academic",
-      organization: "British Council",
-      year: "2020",
-      description: "Achieved a high score demonstrating proficiency in English language for academic purposes.",
-      link: "https://www.britishcouncil.org/exam/ielts"
+      title: "Certificate of Participation, International Summer Summit",
+      organization: "Universitas Airlangga",
+      year: "2024",
+      description: "Participated in the International Summer Summit, an event that brings together students from around the world to discuss global issues and exchange ideas.",
+      link: "https://drive.google.com/file/d/1uNImlwwXOMYsvy_g9u7F7ChqEga2ck-R/view?usp=drive_link"
     },
     {
-      title: "TOEFL iBT",
-      organization: "ETS",
-      year: "2019",
-      description: "Demonstrated English language proficiency for university admissions and professional contexts.",
-      link: "https://www.ets.org/toefl"
+      title: "Certificate of Appreciation, International Summer Course",
+      organization: "Universitas Diponegoro",
+      year: "2024",
+      description: "Cultural Collaboration and Cultural Exchange",
+      link: "https://drive.google.com/file/d/12R9JeHbA_Aci1ZXHBzTUt1W8ZQVk42UG/view?usp=drive_link"
     },
     {
-      title: "Cross-Cultural Communication Certificate",
-      organization: "International Institute for Intercultural Studies",
+      title: "Certificate of Participation, In a Work Shop",
+      organization: "Nusa Putra University",
+      year: "2024",
+      description: "Workshop themes includes robotics, engineering design, and problem solving",
+      link: "https://drive.google.com/file/d/1BHVHukckHmFY30TsZR9j2BCAah7v8AwS/view?usp=drive_link"
+    },
+    {
+      title: "Certificate of IELTS Preparation Class",
+      organization: "Kigndom English Center Malang",
+      year: "2024",
+      description: "Prepared for IELTS exam with focus on vocabulary, grammar, and reading comprehension",
+      link: "https://drive.google.com/file/d/12QBDrOnaYkwpQA3d5LRtN8yn0kB2kFNU/view?usp=drive_link"
+    },
+    {
+      title: "Certificate of Appreciation, Impact Circle 8.0",
+      organization: "AIESEC in President University",
+      year: "2024",
+      description: "Participated in Impact Circle 8.0, an event that brings together students from around the world to discuss global issues and exchange ideas.",
+      link: "https://drive.google.com/file/d/17KdACaMgFFupkSSur8Net-6YdYS8B-_8/view?usp=drive_link"
+    },
+    {
+      title: "TOEFL CHS 30",
+      organization: "The American University of Science",
+      year: "2023",
+      description: "TOEFL CHS 30 is a test that measures your ability to understand and use English in an academic context.",
+      link: "https://drive.google.com/file/d/1441BEfaCZ2E0ppTbZ0aJTwQsqQyV3EDu/view?usp=drive_link"
+    },
+    {
+      title: "Basics of Digital Marketing",
+      organization: "Alqasasbiz for Buisness and Marketing Solutions",
       year: "2021",
-      description: "Specialized training in effective communication across cultural boundaries and diverse settings.",
-      link: "https://www.iiis.org/certificates"
-    },
-    {
-      title: "International Relations Summer Program",
-      organization: "Geneva Institute of International Relations",
-      year: "2018",
-      description: "Intensive program focusing on diplomatic processes and international cooperation frameworks.",
-      link: "https://www.giir.org/summer-programs"
+      description: "Learned the basics of digital marketing, including social media marketing, search engine marketing, and email marketing.",
+      link: "https://drive.google.com/file/d/1Xk0oTiotiSrXUfsK30dLIxvLjVxhbcD4/view?usp=drive_link"
     }
   ];
 
