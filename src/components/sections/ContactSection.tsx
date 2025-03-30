@@ -48,20 +48,20 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-5 h-5 text-primary" />,
       title: "Email",
-      content: "oumar.bagayoko@example.com",
-      link: "mailto:oumar.bagayoko@example.com",
+      content: "Oumar Bagayoko",
+      link: "mailto:bagayokoo291@gmail.com",
     },
     {
       icon: <Phone className="w-5 h-5 text-primary" />,
       title: "Phone",
-      content: "+1 (234) 567-8901",
-      link: "tel:+12345678901",
+      content: "+62 82113699561",
+      link: "tel:+62 82113699561",
     },
     {
       icon: <Linkedin className="w-5 h-5 text-primary" />,
       title: "LinkedIn",
       content: "linkedin.com/in/oumar-bagayoko",
-      link: "https://linkedin.com/in/oumar-bagayoko",
+      link: "http://www.linkedin.com/in/oumar-bagayoko-7b2843317",
     },
   ];
 
@@ -103,7 +103,7 @@ const ContactSection = () => {
             </div>
 
             <div className="mt-8">
-              <h3 className="text-xl font-medium mb-4">Office Hours</h3>
+              <h3 className="text-xl font-medium mb-4">Working Hours</h3>
               <p className="text-foreground/80 mb-2">
                 <span className="font-medium">Monday - Friday:</span> 9:00 AM - 5:00 PM
               </p>

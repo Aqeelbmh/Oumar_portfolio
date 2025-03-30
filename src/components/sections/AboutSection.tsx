@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { User, BookOpen, Globe, Users } from "lucide-react";
 
@@ -49,7 +48,7 @@ const AboutSection = () => {
               My approach combines analytical thinking with creative problem-solving, allowing me to contribute meaningfully to collaborative projects across various disciplines.
             </p>
           </div>
-          
+
           <div className="order-1 md:order-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {interests.map((interest, index) => (
               <Card key={index} className="hover:shadow-md transition-shadow hover:border-primary/20">
