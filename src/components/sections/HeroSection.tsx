@@ -62,7 +62,7 @@ const HeroSection = () => {
               Oumar <span className="text-primary animate-glow">Bagayoko</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary/80 mb-8 animate-fade-in-right">
-              Full Stack Developer & Cultural Bridge-builder
+              Cultural Bridge-builder
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in">
               <Button className="btn-primary hover:animate-pulse-glow" asChild>
@@ -112,7 +112,7 @@ const HeroSection = () => {
               <div className="relative w-72 h-96 md:w-96 md:h-[32rem] rounded-[2.5rem] overflow-hidden border-4 border-primary/50 shadow-[0_0_25px_rgba(38,31,179,0.6)] animate-glow transform hover:scale-105 transition-all duration-500">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-accent/10"></div>
                 <img 
-                  src="/profile-image.jpg" 
+                  src="/stylish-omar-portfolio/profile-image.jpg" 
                   alt="Oumar Bagayoko" 
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
                 />
