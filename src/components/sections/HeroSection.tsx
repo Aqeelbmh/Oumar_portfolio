@@ -3,9 +3,9 @@ import { ArrowDown, Download, Facebook, Instagram, Linkedin, MessageCircle, Send
 
 const HeroSection = () => {
   const scrollToAbout = () => {
-    const aboutSection = document.getElementById("about");
+    const aboutSection = document.getElementById('about');
     if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: "smooth" });
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -69,7 +69,7 @@ const HeroSection = () => {
                 <a href="#contact">Get in Touch</a>
               </Button>
               <Button variant="outline" className="gap-2 hover:animate-glow" asChild>
-                <a href="/cv.pdf" download>
+                <a href="/stylish-omar-portfolio/cv.pdf" download>
                   <Download className="w-4 h-4" /> Download CV
                 </a>
               </Button>
@@ -112,7 +112,7 @@ const HeroSection = () => {
               <div className="relative w-72 h-96 md:w-96 md:h-[32rem] rounded-[2.5rem] overflow-hidden border-4 border-primary/50 shadow-[0_0_25px_rgba(38,31,179,0.6)] animate-glow transform hover:scale-105 transition-all duration-500">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-accent/10"></div>
                 <img 
-                  src="profile-image.jpg" 
+                  src="/stylish-omar-portfolio/profile-image.jpg" 
                   alt="Oumar Bagayoko" 
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
                 />

@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -14,21 +13,20 @@ const Layout = ({ children }: LayoutProps) => {
   useEffect(() => {
     const sections = document.querySelectorAll('section');
     
-    // Initialize sections as visible instead of requiring intersection
-    sections.forEach(section => {
-      section.classList.add('animate-fade-in');
-      section.style.opacity = '1'; // Make sections visible by default
-    });
-    
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
+          (entry.target as HTMLElement).style.opacity = '1';
         }
       });
-    }, { threshold: 0.1 });
+    }, { 
+      threshold: 0.1,
+      rootMargin: '0px 0px -50% 0px'
+    });
     
     sections.forEach(section => {
+      (section as HTMLElement).style.opacity = '1';
       observer.observe(section);
     });
     
@@ -40,7 +38,7 @@ const Layout = ({ children }: LayoutProps) => {
   }, []);
 
   return (
-    <div className={`min-h-screen flex flex-col ${theme}`}>
+    <div className={`min-h-screen flex flex-col bg-background text-foreground ${theme === 'dark' ? 'dark' : ''}`}>
       <Navbar />
       <main className="flex-grow">
         {children}

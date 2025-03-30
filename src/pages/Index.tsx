@@ -1,4 +1,3 @@
-
 import { ThemeProvider } from "@/context/ThemeContext";
 import Layout from "@/components/Layout";
 import HeroSection from "@/components/sections/HeroSection";
@@ -9,12 +8,15 @@ import EducationSection from "@/components/sections/EducationSection";
 import CertificationsSection from "@/components/sections/CertificationsSection";
 import LanguagesSection from "@/components/sections/LanguagesSection";
 import ContactSection from "@/components/sections/ContactSection";
+import { useScrollToSection } from "@/hooks/useScrollToSection";
 
 const Index = () => {
+  useScrollToSection();
+
   return (
     <ThemeProvider>
       <Layout>
-        <div className="text-foreground"> {/* Ensure text color is properly set */}
+        <div className="space-y-16 py-8">
           <HeroSection />
           <AboutSection />
           <SkillsSection />

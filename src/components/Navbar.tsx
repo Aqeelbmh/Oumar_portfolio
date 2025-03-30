@@ -31,6 +31,21 @@ const Navbar = () => {
     { name: "Contact", href: "#contact" },
   ];
 
+  const handleNavClick = (href: string) => {
+    const element = document.querySelector(href);
+    if (element) {
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+    setIsMenuOpen(false);
+  };
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
@@ -43,25 +58,25 @@ const Navbar = () => {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
-          <a 
-            href="#home" 
+          <button 
+            onClick={() => handleNavClick("#home")}
             className="text-xl font-playfair font-bold text-secondary hover:text-primary transition-colors"
           >
             Oumar Bagayoko
-          </a>
+          </button>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             <ul className="flex space-x-6">
               {navLinks.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
+                  <button
+                    onClick={() => handleNavClick(link.href)}
                     className="text-sm font-medium text-secondary/80 hover:text-primary transition-colors relative group"
                   >
                     {link.name}
                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -95,13 +110,12 @@ const Navbar = () => {
             <ul className="flex flex-col space-y-4">
               {navLinks.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="block py-2 text-secondary/80 hover:text-primary transition-colors"
-                    onClick={toggleMenu}
+                  <button
+                    onClick={() => handleNavClick(link.href)}
+                    className="block w-full text-left py-2 text-secondary/80 hover:text-primary transition-colors"
                   >
                     {link.name}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
