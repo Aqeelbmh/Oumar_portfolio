@@ -2,23 +2,36 @@
 node_modules/
 package-lock.json
 yarn.lock
+.pnp
+.pnp.js
 
 # Environment files
 .env
 .env.local
 .env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # IDE and editor files
-.vscode/
+.vscode/*
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
-.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Build output
 dist/
 build/
 out/
+
+# Testing
+coverage/
 
 # Debug logs
 npm-debug.log*
@@ -32,4 +45,5 @@ yarn-error.log*
 .temp/
 
 # System files
-Thumbs.db 
+.DS_Store
+Thumbs.db
