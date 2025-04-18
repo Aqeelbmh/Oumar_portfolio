@@ -155,7 +155,7 @@ if (downloadCVBtn) {
             
             // Create a temporary link element
             const link = document.createElement('a');
-            link.href = 'cv.pdf';
+            link.href = 'oumar_cv.pdf';
             link.download = 'Oumar_Bagayoko_CV.pdf';
             
             // Append to body, click, and remove
